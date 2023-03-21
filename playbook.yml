@@ -13,7 +13,7 @@
     - name: Create & Start Calculator Docker Container
       docker_container:
         name: calculator
-        image: shivamdogaya/calculator
+        image: shivamdogaya/calculato
         state: started
         tty: yes
         interactive: yes
